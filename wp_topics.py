@@ -17,7 +17,7 @@ subreddit = reddit.get_subreddit(subreddit_name)
 output_file = open("subreddit_output.txt", "w")
 
 for submission in subreddit.get_top_from_all(limit=post_count):
-    output_file.write(submission.title.encode('ascii', 'ignore') + " :;: " + str(submission.score) + " :;: " + str(submission.id) + "\n")
+    output_file.write(submission.title.encode('ascii', 'ignore') + "|" + str(submission.score) + "|" + str(submission.id) + "\n")
 
 output_file.close()
 
