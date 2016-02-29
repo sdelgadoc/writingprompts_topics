@@ -1,2 +1,2 @@
 # writingprompts_topics
-Analysis of reddit's writingprompts topics
+Topic analysis of reddit's writingprompts posts
