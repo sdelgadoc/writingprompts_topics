@@ -10,7 +10,7 @@ user_agent = "Writing prompts topic analysis 1.0"
 reddit = praw.Reddit(user_agent=user_agent)
 
 # Save hot ~1000 post information
-subreddit_name = "WritingPrompts" 
+subreddit_name = "TwoXChromosomes" 
 post_count = 1000
 
 subreddit = reddit.get_subreddit(subreddit_name)
